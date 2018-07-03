@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@drawable/login1"
+tools:context="com.example.ipsit.myapplication.AdminCategory">
+
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="160dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="130dp"
+    android:layout_marginLeft="-90dp"
+    android:background="@drawable/rounded_button_solid"
+    android:fontFamily="@font/arbutus_slab"
+    android:text="Books and Stationary"
+    android:textAllCaps="false"
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="22sp"
+    android:textStyle="bold"
+
+    />
+
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="160dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="-80dp"
+    android:layout_marginRight="-95dp"
+    android:background="@drawable/rounded_button_solid"
+    android:fontFamily="@font/arbutus_slab"
+    android:text="Clothes"
+    android:textAllCaps="false"
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="22sp"
+    android:textStyle="bold"
+
+    />
+
+
+<Button
+    android:id="@+id/button3"
+    android:layout_width="160dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp"
+    android:layout_marginRight="-95dp"
+    android:background="@drawable/rounded_button_solid"
+    android:fontFamily="@font/arbutus_slab"
+    android:text="Toys"
+    android:textAllCaps="false"
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="22sp"
+    android:textStyle="bold"
+
+    />
+<Button
+    android:id="@+id/button4"
+    android:layout_width="160dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="-80dp"
+    android:layout_marginLeft="-90dp"
+    android:background="@drawable/rounded_button_solid"
+    android:fontFamily="@font/arbutus_slab"
+    android:text="Food"
+    android:textAllCaps="false"
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="22sp"
+    android:textStyle="bold"
+
+    />
+
+<Button
+    android:id="@+id/button5"
+    android:layout_width="160dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="-90dp"
+    android:background="@drawable/rounded_button_solid"
+    android:fontFamily="@font/arbutus_slab"
+    android:text="General"
+    android:textAllCaps="false"
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="22sp"
+    android:textStyle="bold"
+
+    />
+<Button
+    android:id="@+id/button6"
+    android:layout_width="160dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="-82dp"
+    android:layout_marginRight="-95dp"
+    android:background="@drawable/rounded_button_solid"
+    android:fontFamily="@font/arbutus_slab"
+    android:text="Medical Supplies"
+    android:textAllCaps="false"
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="22sp"
+    android:textStyle="bold"
+
+    />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/rounded_button_solid"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/arbutus_slab"
+        android:layout_below="@+id/buttonUpload"
+        />
+</LinearLayout>
